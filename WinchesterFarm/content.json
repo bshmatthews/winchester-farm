@@ -1,0 +1,19 @@
+{
+  "Format": "1.23.0",
+  "Changes": [
+
+     { "Comment": "Castiel Section"},
+     {
+        "Action": "EditData",
+        "Target": "Data/NPCDispositions",
+        "Entries": {
+         "Linus": "adult/neutral/shy/positive/male/datable/null/Town/winter 3//Tent 2 2/Castiel"
+         }
+     },
+     {
+        "Action": "Load",
+        "Target": "Portraits/Linus",
+        "FromFile": "assets/Castiel.png"
+     }
+  ]
+}

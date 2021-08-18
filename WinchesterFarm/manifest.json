@@ -1,0 +1,11 @@
+{
+  "Name": "Winchester Farm",
+  "Author": "bshmatthews",
+  "Version": "1.0.0",
+  "Description": "A Supernatural fanmod",
+  "UniqueID": "bshmatthews.WinchesterFarm",
+  "UpdateKeys": [],
+  "ContentPackFor": {
+    "UniqueID": "Pathoschild.ContentPatcher"
+  }
+}
