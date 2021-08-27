@@ -27,16 +27,8 @@
       },
       {
          "Action": "EditData",
-         "Target": "Characters/Dialog/Linus",
-         "Entries": {
-            "winter_Mon": "TEST It can get really cold if you live in a tent.$s",
-            "winter_Tue4": "TEST Thanks for not shunning me, @. It takes a lot of wisdom to override your base instincts.#$e#I'm a human like everyone else. I just have a different lifestyle.",
-            "winter_Wed4": "TEST I'm sure you understand why I'm cautious of strangers.#$e#But let's put that in the past, okay? You and I are friends now, I think.",
-            "winter_Thu4": "TEST Winter is tough, but you can still fish and forage to get by.#$e#If you have any animals you should keep them inside.",
-            "winter_Fri4": "TEST The trees go to sleep during the winter. It makes it a bit lonely out here.#$e#But I wouldn't deny them their beauty sleep.$h",
-            "winter_Sat4": "TEST Thanks for stopping by. I was actually feeling a little lonely this morning.#$e#So, have you discovered anything interesting in the mines?",
-            "winter_Sun": "TEST Sleeping on the ground is good for my back.#$e#It's best to look at the positive side of things.$h"
-         }
+         "Target": "Characters/Dialogue/Linus",
+         "FromFile": "assets/Dialogue/Castiel"
       },
       {
          "Action": "EditData",
