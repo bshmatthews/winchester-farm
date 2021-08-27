@@ -19,7 +19,7 @@ The mod probably won't add new mechanics or storylines.
 
 I would love for this to be a collaborative project. There are many ways you can contribute:
 
-* Submit feedback or ideas in the [Issues]() tab
+* Submit feedback or ideas in the [Issues](https://github.com/bshmatthews/winchester-farm/issues) tab
 * Draw pixel art
 * Edit character data
 * Write dialog or events
