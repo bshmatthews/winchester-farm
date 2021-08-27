@@ -26,7 +26,7 @@
          }
       },
       {
-         "Action": "EditData",
+         "Action": "Load",
          "Target": "Characters/Dialogue/Linus",
          "FromFile": "assets/Dialogue/Castiel"
       },
@@ -39,6 +39,136 @@
             "fall_8_1": "Hello,^It's blackberry season right now. The bushes are full of them. I want to pick some, but I lost my basket. Can you help?^   -Castiel%item quest 107 %%[#]Castiel Lost His Basket",
             "passedOut2": "@, ^You're lucky I found you last night! You were unconscious, and someone was searching your pockets. I have no idea how much money they took... they ran away as soon as I approached. Be more careful!^^-Castiel[#]Note From Castiel",
             "linusTrashCleanup": "Hi @,^^Thanks for helping me clean up around the valley.^The waters are looking much cleaner. I think everyone will appreciate it. I know I will.^As a way of saying 'thanks', I wanted to teach you how to grow your own fiber. I hope it's useful.^^-Castiel%item craftingRecipe Fiber_Seeds %%[#]Castiel's Thank You"
+         }
+      },
+      {
+       "Action": "EditData",
+       "Target": "Characters/Dialogue/Emily",
+       "Entries": {
+          "summer_Tue6": "I feel bad for Castiel. People judge him, but he's just living a different lifestyle.$u#$e#I wish everyone could learn to be accepting of others."
+          }
+       },
+       {
+        "Action": "EditData",
+        "Target": "Characters/Dialogue/LeoMainland",
+        "Entries": {
+          "18": "When I first arrived, Castiel made me a suit out of leaves, like his...#$b#But I looked funny... like a fuzzy mango!$h#$e#I think I'll stick to my feathers.",
+          "Wed": "Between Castiel and Miss Penny, I'm going to learn everything there is to learn!$h#$e#Mayor Lewis says I'm on the fast track to becoming a 'well-rounded citizen'... whatever that means.", "4": "I saw a big mango floating in the sky. Castiel told me it was a hot-air balloon!$u#$b#I thought only birds could fly...",
+          "Fri": "Castiel has been teaching me about all the wild food in the valley. There's a lot of good stuff out here!$h#$e#Though... I do kind of miss having golden walnuts for breakfast every morning...$s","winter_Fri": "Castiel taught me how to make a special spice berry rubbed fish...#$b#He says if I eat enough of it it'll keep me warm this winter!$h",
+          "Fri8": "Castiel says I should 'cook' my fish before eating it...$s#$b#I'm having a hard time getting used to it... so dry...$s"      
+          }
+       },
+       {
+        "Action": "EditData",
+        "Target": "Characters/Dialogue/Penny",
+        "Entries": {
+          "winter_Fri2": "Are you friends with Castiel? He lives in a tent up in the mountains.#$e#Everyone ignores him, the poor guy. He's actually really nice... Just a little odd.#$e#It must be so cold to live in a tent this time of year."
+         }
+       },
+
+
+
+      {
+         "Action": "EditData",
+         "Target": "Characters/Dialogue/rainy",
+         "Entries": {
+            "Linus": "A warm rain is a pleasant way to get clean.$h"
+                  }
+      },
+      {
+         "Action": "EditData",
+         "Target": "Data/ExtraDialogue",
+         "Entries": {
+            "Town_DumpsterDiveComment_Linus": "Find anything good?$h",
+            "Mines_PlayerKilled_Linus": "...I found you unconscious in the mines. You're lucky I happened to pass by!#$b#Be a little more careful next time, okay?$s"
+         }
+      },
+      {
+         "Action": "EditData",
+         "Target": "Data/ObjectInformation",
+         "Entries": {
+            "774": "Wild Bait/15/-300/Basic -21/Wild Bait/A unique recipe from Castiel that gives you a chance to catch two fish at once."
+         }
+      },
+      {
+         "Action": "EditData",
+         "Target": "Data/Quests",
+         "Entries": {
+            "107": "LostItem/Blackberry Basket/It's blackberry season, but Castiel can't find his basket! He's asking you to help him find it. He has no idea where it is./Find Castiel's basket and return it to him./Linus 790 Backwoods 27 27/-1/0/-1/true/My basket! Thank you. This means a lot to me.$h"
+         }
+      },
+      {
+         "Action": "EditData",
+         "Target": "Strings/SpecialOrderStrings",
+         "Entries": {
+            "Linus_Text": "I have an idea. There's a lot of trash in the water. Why don't we fish some out to make the valley more beautiful?                   -Castiel"
+         }
+      },
+      {
+         "Action": "EditData",
+         "Target": "Strings/UI",
+         "Entries": {
+            "Chat_LinusTrashCan": "Castiel was impressed!",
+            "Chat_PassedOut_Tent": "{0} fell asleep in Castiel's tent."
+         }
+      },
+      {
+         "Action": "EditData",
+         "Target": "Data/Festivals/winter25",
+         "Entries": {
+            "Linus": "I'd join in... but I don't think I'm welcome.$s",
+            "Leo": "Castiel feels uncomfortable about joining in, so I'm going to keep him company.#$e#We'll have our own little feast... mashed winter root and spice berry fish!$h"
+         }
+      },
+      {
+         "Action": "EditData",
+         "Target": "Data/Festivals/winter8",
+         "Entries": {
+            "Linus": "Igloo-building's an art I picked up from the tundra dwellers who live beyond the frozen sea.#$e#That was many years ago.$h#$e#An Igloo makes a nice home, but it's easier to just stay in my tent year-round."
+         }
+      },
+      {
+         "Action": "EditData",
+         "Target": "Data/Festivals/summer28",
+         "Entries": {
+            "Linus": "I'll just sneak up when the jellies arrive... I don't want to bother anyone."
+         }
+      },
+      {
+         "Action": "EditData",
+         "Target": "Data/Festivals/summer11",
+         "Entries": {
+            "Maru": "Whatever Castiel is roasting smells awfully good... *slurp*",
+            "Linus": "A slow, continuous rotation is key to achieving the perfect roast."
+         }
+      },
+      {
+         "Action": "EditData",
+         "Target": "Data/Festivals/spring24",
+         "Entries": {
+            "Linus": "Oh, hello there. It's nice of you to talk to me.#$b#Spring is almost over... what a shame."
+         }
+      },
+      {
+         "Action": "EditData",
+         "Target": "Data/Festivals/spring13",
+         "Entries": {
+            "Linus": "No one really talks to me... I just come for the deviled eggs.",
+            "Linus_y2": "I'll just slip in a little later and have some food. I'm eyeing that scrumptious looking pie!"
+         }
+      },
+      {
+         "Action": "EditData",
+         "Target": "Data/Festivals/fall27",
+         "Entries": {
+            "Linus": "Good show, old friend."
+         }
+      },
+      {
+         "Action": "EditData",
+         "Target": "Data/Festivals/fall16",
+         "Entries": {
+            "Linus": "These animals never judge people by their looks. The same can't be said for humans."
          }
       },
       {
