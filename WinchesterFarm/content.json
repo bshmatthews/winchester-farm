@@ -1,8 +1,13 @@
 {
   "Format": "1.23.0",
   "Changes": [
-
-     { "Comment": "Castiel Section"},
+     {
+         "Action": "EditImage",
+         "Target": "Maps/fall_town",
+         "FromFile": "assets/fall_town.png",
+         "FromArea": { "X": 239, "Y": 175, "Width": 113, "Height": 145 }, 
+         "ToArea": { "X": 239, "Y": 175, "Width": 113, "Height": 145 }
+      },
      {
         "Action": "EditData",
         "Target": "Data/NPCDispositions",
